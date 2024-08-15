@@ -1,0 +1,51 @@
+#assigning multiple value in single line 
+
+x,y,z=12,45,67
+print(x)
+print(y)
+print(z)
+
+my_name,my_age,my_course="karthick",17,"computer science "
+print(my_name)
+print(my_age)
+print(my_course)
+
+#assigning single value for multiple variable
+
+x=y=z=12
+print(x)
+print(y)
+print(z)
+
+myage=myfavourite=date=19
+print(myage)
+print(myfavourite)
+print(date)
+
+#swaping
+
+x = 12
+y = 15
+x = y
+y = x
+print(x)
+print(y)
+
+x = 12
+y = 15
+x,y=y,x
+print(x)
+print(y)
+
+#unpack a collection 
+
+mylist=["karthick" , 12 , "computer science "]
+name,myage,course = mylist
+print(name)
+print(myage)
+print(course)
+
+
+
+
+

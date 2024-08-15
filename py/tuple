@@ -1,0 +1,83 @@
+#tuple
+
+mytup=("karthick", 12,-45)
+print(mytup)
+
+#tuple without parenthesis
+
+my_tup ="karthick",12,45
+
+print(my_tup)
+
+#createing a tuple with one item 
+my_tu="karthick",
+print(my_tu)
+print(type(my_tu))
+
+
+
+# accessing element  with slice 
+
+myt=("git","github","bithub")
+print(myt[1:])
+
+#unchangeable tuple
+
+"""myt=("git","github","bithub")
+myt[1]="bitbash"
+print(myt)"""
+
+#update the tuple with method
+
+x = ("karthick",12,"harish")
+y = list(x)
+y[1]=45
+x=tuple(y)
+print(x)
+
+#no append , expend etc...
+x = ("karthick",12,"harish")
+y =("jai","bheem")
+x +=y
+print(x)
+
+#remove
+x = ("karthick",12,"harish")
+y = list(x)
+y.remove(12)
+x = tuple(y)
+print(x)
+
+
+
+#length of tuple 
+
+myt=("git","github","bithub")
+print(len(myt))
+
+#operations in tuple 
+
+#repetition
+
+myt=("git","github","bithub ")
+print(myt*2)
+
+#concatenate
+
+myt=("git","github","bithub")
+print(myt + ("karthick","harish"))
+
+#checking membership
+myt=("git","github","bithub")
+if "git" in myt:
+    print("yes")
+
+
+
+
+
+
+
+
+
+

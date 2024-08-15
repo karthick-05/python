@@ -1,0 +1,14 @@
+
+import random
+
+#integer random function 
+print(random.randint(1,100))
+
+#float random function
+print(random.uniform(12.3,13.3))
+
+#random float number
+print(random.random())
+
+
+

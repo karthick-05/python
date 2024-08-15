@@ -1,0 +1,22 @@
+# short name identifier 
+
+x = 12
+y="karthick"
+
+# descriptive name identifier
+
+mynumber =12
+myname = "karthick"
+
+#Camel case  : each word are start with capital except first word 
+
+myNameIs ="karthick"
+
+#pascal case : each words start with capital
+
+MyNameIs ="karthick"
+ 
+#snake case : underscore used in between the each word 
+
+My_Name_Is = "karthick"
+
